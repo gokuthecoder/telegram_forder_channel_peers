@@ -93,6 +93,6 @@ const Channel_ID = 2136201334;
                 console.error(`Failed to forward message with ID ${element}: ${error}`);
             }
         }
-    }, 10000);
+    }, 20000);
 
 })();
