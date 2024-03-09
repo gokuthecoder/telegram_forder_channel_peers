@@ -31,7 +31,7 @@ const Channel_ID = 2136201334;
     console.log("You should now be connected.");
     console.log(client.session.save());
 
-    let i = 9;
+    let i = 11;
 
     try {
         const result = await Message.findOne().sort('-forward_origin_chat_id').exec();
